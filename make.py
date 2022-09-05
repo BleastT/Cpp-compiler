@@ -4,20 +4,20 @@ import shutil
 
 
 CXX ="g++"
-FLAGS = "-Wall"
+FLAGS = ""
 VERSION="c++17"
 EXECUTABLE_NAME = "application"
 OBJ_OUTPUT = "Build"
 PROJ_OUTPUT = "bin"
-SRC_DIR = 'Proj/src'
+SRC_DIR = '.'
 BUILD_OUTPUT = 'out'
 
-INCLUDES = "-Ideps/include/ -IProj/src/vendor"
-LIB = "-L deps/lib/GLFW -L deps/lib/GL"
-DEPENDENCIES =  "-lglfw3dll -lglew32 -lopengl32"
+INCLUDES = ""
+LIB = ""
+DEPENDENCIES =  ""
 
-RESSOURCE_DIR = "Proj/res"
-EXE_CLOSE_FILES = "CloseFiles"
+RESSOURCE_DIR = ""
+EXE_CLOSE_FILES = ""
 
 # CXX             --> The compiler used
 # FLAGS           --> The Flags used during compilation
