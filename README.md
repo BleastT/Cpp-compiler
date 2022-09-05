@@ -42,8 +42,9 @@ EXE_CLOSE_FILES = ""
 # Tools
 
 Python : 3.10.6                                                                                                                          
-packages : os, filecmp, shutil                                                                              
-Tested with mingw32 g++ only. clang++ was not tested yet so I cannot guarantee it's functionality. \n
+packages : os, filecmp, shutil   
+mingw32 : https://sourceforge.net/projects/mingw/
+Tested with mingw32 g++ only. clang++ was not tested yet so I cannot guarantee it's functionality. 
 
 
 # Notice
