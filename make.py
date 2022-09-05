@@ -26,6 +26,7 @@ EXE_CLOSE_FILES = ""
 # OBJ_OUTPUT      --> Where The .o files will be created
 # OUTPUT          --> Where the final project will be created(executable + ressources + close files(.dll, .a, etc...))
 # SRC_DIR         --> Where your Project's cpp files are located(it will also look in subdirectories)
+# BUILD_OUTPUT    --> Where the build files and The Bin folder will be created
 # INCLUDES        --> The Include folders
 # LIB             --> The Library folders
 # DEPENDENCIES    --> The name of the dependencies
