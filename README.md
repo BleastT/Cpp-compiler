@@ -44,3 +44,8 @@ EXE_CLOSE_FILES = ""
 Python : 3.10.6                                                                                                                          
 packages : os, filecmp, shutil                                                                              
 Tested with mingw32 g++ only. clang++ was not tested yet so I cannot guarantee it's functionality. \n
+
+
+# Notice
+
+When adding files path in your cpp code make sure to do it relative to the executable's location and not the cpp file's location
