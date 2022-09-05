@@ -7,13 +7,14 @@ Cpp compiler made in python.
 Make sure to fill these variables before. Only CXX(compiler like g++, clang++, etc...), VERSION and SRC_DIR are mandatory to fill
 
 ``` python
-CXX = ""
+CXX ="g++"
 FLAGS = ""
-VERSION= ""
+VERSION="c++17"
 EXECUTABLE_NAME = "application"
 OBJ_OUTPUT = "Build"
-OUTPUT = "bin"
-SRC_DIR = ''
+PROJ_OUTPUT = "bin"
+SRC_DIR = '.'
+BUILD_OUTPUT = 'out'
 
 INCLUDES = ""
 LIB = ""
@@ -28,8 +29,9 @@ EXE_CLOSE_FILES = ""
 # VERSION         --> The cpp version used
 # EXECUTABLE_NAME --> The final executable will have this name
 # OBJ_OUTPUT      --> Where The .o files will be created
-# OUTPUT          --> Where the final project will be created(executable + ressources + close files(.dll, .a, etc...))
+# PROJ_OUTPUT     --> Where the final project will be created(executable + ressources + close files(.dll, .a, etc...))
 # SRC_DIR         --> Where your Project's cpp files are located(it will also look in subdirectories)
+# BUILD_OUTPUT    --> Where the build files and The Bin folder will be created
 # INCLUDES        --> The Include folders
 # LIB             --> The Library folders
 # DEPENDENCIES    --> The name of the dependencies
