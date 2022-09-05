@@ -48,4 +48,24 @@ Tested with mingw32 g++ only. clang++ was not tested yet so I cannot guarantee i
 
 # Notice
 
-When adding files path in your cpp code make sure to do it relative to the executable's location and not the cpp file's location
+When adding files path in your cpp code make sure to do it relative to the executable's location and not the cpp file's location. You can take it as if the foler in which all your code is location is the reference point;
+
+For a project where you have one  MAIN.cpp file in a src folder and then a res folder
+
+Proj
+/ src 
+/     / MAIN.cpp
+/ res 
+/     / image.png
+
+  You would do this
+  
+ ``` cpp
+  Whatever_function_you_have("./res/whatever_asset_you_have");
+ ```
+ 
+  In any cases do not do this
+  
+ ``` cpp
+    Whatever_function_you_have("../res/whatever_asset_you_have");
+ ```
