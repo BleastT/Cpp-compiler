@@ -65,11 +65,11 @@ Proj
   You would do this
   
  ``` cpp
-  Whatever_function_you_have("./res/whatever_asset_you_have");
+  Whatever_function_you_have("./res/image.png");
  ```
  
   In any cases do not do this
   
  ``` cpp
-    Whatever_function_you_have("../res/whatever_asset_you_have");
+    Whatever_function_you_have("../res/image.png");
  ```
