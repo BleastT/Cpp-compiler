@@ -52,11 +52,14 @@ When adding files path in your cpp code make sure to do it relative to the execu
 
 For a project where you have one  MAIN.cpp file in a src folder and then a res folder
 
+``` bash
 Proj
-/ src 
-/     / MAIN.cpp
-/ res 
-/     / image.png
+|--src 
+|     |---MAIN.cpp
+| res 
+|     |---image.png
+
+```
 
   You would do this
   
