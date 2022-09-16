@@ -8,12 +8,10 @@ Make sure to fill these variables before. Only CXX(compiler like g++, clang++, e
 
 ``` python
 CXX ="g++"
-FLAGS = ""
-VERSION="c++17"
-EXECUTABLE_NAME = "application"
-OBJ_OUTPUT = "Build"
-PROJ_OUTPUT = "bin"
-SRC_DIR = '.'
+FLAGS = "-Wall"
+VERSION="c++20"
+EXECUTABLE_NAME = "Application"
+SRC_DIR = ''
 BUILD_OUTPUT = 'out'
 
 INCLUDES = ""
@@ -22,6 +20,9 @@ DEPENDENCIES =  ""
 
 RESSOURCE_DIR = ""
 EXE_CLOSE_FILES = ""
+
+APP_TYPE = "exe"
+MACROS = ""
 
 
 # CXX             --> The compiler used
@@ -32,11 +33,14 @@ EXE_CLOSE_FILES = ""
 # PROJ_OUTPUT     --> Where the final project will be created(executable + ressources + close files(.dll, .a, etc...))
 # SRC_DIR         --> Where your Project's cpp files are located(it will also look in subdirectories)
 # BUILD_OUTPUT    --> Where the build files and The Bin folder will be created
-# INCLUDES        --> The Include folders
-# LIB             --> The Library folders
-# DEPENDENCIES    --> The name of the dependencies
+# INCLUDES        --> The Include folders : -Iinclude_folder
+# LIB             --> The Library folders : -Llib_folder
+# DEPENDENCIES    --> The name of the dependencies : -ldependencie_name
 # RESSOURCE_DIR   --> Where you ressource folder is(can contain images, fonts, etc...)
 # EXE_CLOSE_FILES --> The files that have to be in the same dir as the executable like .dll files or others
+# APP_TYPE        --> Define wheter the app should be built as a "dll" or "exe" file
+# MACROS          --> Prepocessors that gets defined during compilation : use -Dmacros_name
+
 
 ```
 
