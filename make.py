@@ -9,12 +9,12 @@ CXX ="g++"
 FLAGS = "-Wall"
 VERSION="c++20"
 EXECUTABLE_NAME = "Application"
-SRC_DIR = 'src'
+SRC_DIR = ''
 BUILD_OUTPUT = 'out'
 
-INCLUDES = "-I../Engine/src"
-LIB = "-L../Engine/out/bin"
-DEPENDENCIES =  "-lBlast"
+INCLUDES = ""
+LIB = ""
+DEPENDENCIES =  ""
 
 RESSOURCE_DIR = ""
 EXE_CLOSE_FILES = ""
